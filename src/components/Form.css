@@ -1,0 +1,20 @@
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.form-contact > input {
+    margin: 8px;
+    width: 85%;
+}
+
+.form-textarea-input {
+    /*height: 200px;*/
+    /*display: inline-block;*/
+    width: 85%;
+    height: 80%;
+}
