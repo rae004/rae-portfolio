@@ -56,16 +56,16 @@ export default class SimpleForm extends React.Component {
                     <div className="my-form-container">
                         <h1 className="">Send your Feedback!</h1>
                         <label className={'form-label-flex'}><p>Name:</p>
-                            <input className={'form-input-flex'} type="text" ref={this.nameElm} placeholder={'Please enter your name...'} required={true} autoComplete={"off"} />
+                            <input className={'form-input-flex single-line'} type="text" ref={this.nameElm} placeholder={'Required.'} required={true} />
                         </label>
                         <label className={'form-label-flex'}><p>Email:</p>
-                            <input className={'form-input-flex'} type="email" ref={this.emailElm} placeholder={'Please enter your email...'} required={true} />
+                            <input className={'form-input-flex single-line'} type="email" ref={this.emailElm} placeholder={'Required.'} required={true} />
                         </label>
                         <label className={'form-label-flex'}><p>Ph#:</p>
-                            <input className={'form-input-flex'} type="phone" ref={this.phElm} placeholder={'Optional...'} autoComplete={"off"} />
+                            <input className={'form-input-flex single-line'} type="phone" ref={this.phElm} placeholder={'Optional...'} autoComplete={"off"} />
                         </label>
                         <label className={'form-label-flex'}><p>Comment:</p>
-                            <textarea className={'form-input-flex form-textarea'} type="textarea" ref={this.commentElm} placeholder={'Optional...'} autoComplete={"off"} />
+                            <textarea className={'form-input-flex multi-line'} type="textarea" ref={this.commentElm} placeholder={'Optional...'} />
                         </label>
                         <div className={'contact-recaptcha'}>
                             <ReCAPTCHA
