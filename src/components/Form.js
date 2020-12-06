@@ -1,5 +1,5 @@
 import React from 'react';
-import ReCAPTCHA from "react-google-recaptcha";
+import ReCAPTCHA from 'react-google-recaptcha';
 import '../App.css';
 import './Form.css'
 
@@ -23,7 +23,7 @@ export default class SimpleForm extends React.Component {
         this.setState({
             reCaptchaResponse: value
         })
-        console.log("Captcha value:", value);
+        console.log('Captcha value:', value);
     }
 
     handleSubmit(e) {
@@ -51,30 +51,30 @@ export default class SimpleForm extends React.Component {
 
     render() {
         return (
-            <div className="my-class-form-wrapper">
+            <div className={'my-class-form-wrapper'}>
                 <form className={'my-class-form'} onSubmit={this.handleSubmit}>
-                    <div className="my-form-container">
-                        <h1 className="">Send your Feedback!</h1>
+                    <div className={'my-form-container'}>
+                        <h1>Send your Feedback!</h1>
                         <label className={'form-label-flex'}><p>Name:</p>
-                            <input className={'form-input-flex single-line'} type="text" ref={this.nameElm} placeholder={'Required.'} required={true} />
+                            <input className={'form-input-flex single-line'} type={'text'} ref={this.nameElm} placeholder={'Required.'} required={true} />
                         </label>
                         <label className={'form-label-flex'}><p>Email:</p>
-                            <input className={'form-input-flex single-line'} type="email" ref={this.emailElm} placeholder={'Required.'} required={true} />
+                            <input className={'form-input-flex single-line'} type={'email'} ref={this.emailElm} placeholder={'Required.'} required={true} />
                         </label>
                         <label className={'form-label-flex'}><p>Ph#:</p>
-                            <input className={'form-input-flex single-line'} type="phone" ref={this.phElm} placeholder={'Optional...'} autoComplete={"off"} />
+                            <input className={'form-input-flex single-line'} type={'phone'} ref={this.phElm} placeholder={'Optional...'} autoComplete={'off'} />
                         </label>
                         <label className={'form-label-flex'}><p>Comment:</p>
-                            <textarea className={'form-input-flex multi-line'} type="textarea" ref={this.commentElm} placeholder={'Optional...'} />
+                            <textarea className={'form-input-flex multi-line'} type={'textarea'} ref={this.commentElm} placeholder={'Optional...'} />
                         </label>
                         <div className={'contact-recaptcha'}>
                             <ReCAPTCHA
-                                sitekey="6LfTvfsZAAAAABn_rPS3cUCcXZ9oHVsqN_HGwTxp"
+                                sitekey={'6LfTvfsZAAAAABn_rPS3cUCcXZ9oHVsqN_HGwTxp'}
                                 onChange={this.handleOnChange}
                                 required={true}
                             />
                         </div>
-                        <input type="submit" className="form-label-flex"/>
+                        <input type={'submit'} className={'form-label-flex'}/>
                     </div>
                 </form>
             </div>

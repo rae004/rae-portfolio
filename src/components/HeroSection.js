@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from "./Button";
+import {Button} from './Button';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -8,7 +8,7 @@ function HeroSection() {
             {/*<video src={'/videos/video-2.mp4'} autoPlay loop muted />*/}
             <h1>ADVENTURE AWAITS!</h1>
             <p>what are you waiting for???</p>
-            <div className="hero-btns">
+            <div className={'hero-btns'}>
                 <Button
                     className={'btns'}
                     buttonStyle={'btn--outline'}
@@ -19,7 +19,7 @@ function HeroSection() {
                     className={'btns'}
                     buttonStyle={'btn--primary'}
                     buttonSize={'btn--large'}>
-                    WATCH NOW <i className="far fa-play-circle"/>
+                    WATCH NOW <i className='far fa-play-circle'/>
                 </Button>
             </div>
         </div>

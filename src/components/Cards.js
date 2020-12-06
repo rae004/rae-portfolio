@@ -6,9 +6,9 @@ function Cards() {
     return (
         <div className={'cards'}>
             <h1>Check out these EPIC CARDS!</h1>
-            <div className="cards__container">
-                <div className="cards__wrapper">
-                    <ul className="cards__items">
+            <div className={'cards__container'}>
+                <div className={'cards__wrapper'}>
+                    <ul className={'cards__items'}>
                         <CardItem
                             src={'images/img-9.jpg'}
                             text={'Explore the hidden wonders inside the CarItems'}
@@ -22,7 +22,7 @@ function Cards() {
                             path={'/services'}
                         />
                     </ul>
-                    <ul className="cards__items">
+                    <ul className={'cards__items'}>
                         <CardItem
                             src={'images/img-4.jpg'}
                             text={'Explore the hidden SUB wonders inside the CarSubItems'}
@@ -42,7 +42,6 @@ function Cards() {
                             path={'/services'}
                         />
                     </ul>
-
                 </div>
             </div>
         </div>
