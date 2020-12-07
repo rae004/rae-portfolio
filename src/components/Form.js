@@ -62,10 +62,10 @@ export default class SimpleForm extends React.Component {
                             <input className={'form-input-flex single-line'} type={'email'} ref={this.emailElm} placeholder={'Required.'} required={true} />
                         </label>
                         <label className={'form-label-flex'}><p>Ph#:</p>
-                            <input className={'form-input-flex single-line'} type={'phone'} ref={this.phElm} placeholder={'Optional...'} autoComplete={'off'} />
+                            <input className={'form-input-flex single-line'} type={'phone'} ref={this.phElm} placeholder={'Optional...'} />
                         </label>
                         <label className={'form-label-flex'}><p>Comment:</p>
-                            <textarea className={'form-input-flex multi-line'} type={'textarea'} ref={this.commentElm} placeholder={'Optional...'} />
+                            <textarea className={'form-input-flex multi-line'} ref={this.commentElm} placeholder={'Optional...'} />
                         </label>
                         <div className={'contact-recaptcha'}>
                             <ReCAPTCHA
@@ -74,7 +74,7 @@ export default class SimpleForm extends React.Component {
                                 required={true}
                             />
                         </div>
-                        <input type={'submit'} className={'form-label-flex'}/>
+                        <input type={'submit'} className={'form-label-flex'} value={'Submit'}/>
                     </div>
                 </form>
             </div>
