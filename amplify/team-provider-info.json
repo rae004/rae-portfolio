@@ -10,6 +10,11 @@
       "StackName": "amplify-raeportfolio-dev-151738",
       "StackId": "arn:aws:cloudformation:us-east-2:233416806179:stack/amplify-raeportfolio-dev-151738/164144b0-3cb7-11eb-97c3-06eeae6f6cb8",
       "AmplifyAppId": "d1b0yployo87f1"
+    },
+    "categories": {
+      "auth": {
+        "raeportfoliod5a02186": {}
+      }
     }
   }
 }
