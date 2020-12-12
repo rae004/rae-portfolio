@@ -1,7 +1,7 @@
 import React from 'react';
 import CardItem from "./CardItem";
 import './Cards.css';
-const CDN_SOURCE = 'https://rae-portfolio-storage151738-dev.s3.us-east-2.amazonaws.com';
+const CDN_SOURCE = 'https://rae-portfolio-storage151738-dev.s3.us-east-2.amazonaws.com/';
 
 function Cards() {
     return (
