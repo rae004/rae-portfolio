@@ -11,13 +11,13 @@ function Cards() {
                 <div className={'cards__wrapper'}>
                     <ul className={'cards__items'}>
                         <CardItem
-                            src={CDN_SOURCE + 'images/img-9.jpg'}
+                            src={CDN_SOURCE + 'images/img-9-417-279.jpg'}
                             text={'Explore the hidden wonders inside the CarItems'}
                             label={'Adventure'}
                             path={'/services'}
                         />
                         <CardItem
-                            src={CDN_SOURCE + 'images/img-2.jpg'}
+                            src={CDN_SOURCE + 'images/img-2-417-279.jpg'}
                             text={'Beautiful card items inside!'}
                             label={'Adventure'}
                             path={'/services'}
@@ -25,19 +25,19 @@ function Cards() {
                     </ul>
                     <ul className={'cards__items'}>
                         <CardItem
-                            src={CDN_SOURCE + 'images/img-4.jpg'}
+                            src={CDN_SOURCE + 'images/img-4-417-279.jpg'}
                             text={'Explore the hidden SUB wonders inside the CarSubItems'}
                             label={'Sub1'}
                             path={'/services'}
                         />
                         <CardItem
-                            src={CDN_SOURCE + 'images/img-5.jpg'}
+                            src={CDN_SOURCE + 'images/img-5-417-279.jpg'}
                             text={'Beautiful SUB card items inside!'}
                             label={'Sub2'}
                             path={'/services'}
                         />
                         <CardItem
-                            src={CDN_SOURCE + 'images/img-6.jpg'}
+                            src={CDN_SOURCE + 'images/img-6-417-279.jpg'}
                             text={'What a great SUB card!!!!'}
                             label={'Sub3'}
                             path={'/services'}
